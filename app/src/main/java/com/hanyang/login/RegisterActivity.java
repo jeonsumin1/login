@@ -57,8 +57,7 @@ public class RegisterActivity extends AppCompatActivity {
                             }else{
                                 Toast.makeText(getApplicationContext(), message, Toast.LENGTH_LONG).show();
                             }
-                        } catch(Exception t){
-                            Toast.makeText(getApplicationContext(), t.toString(), Toast.LENGTH_LONG).show();
+                        } catch(Exception t){ Toast.makeText(getApplicationContext(), t.toString(), Toast.LENGTH_LONG).show();
                         }
                     }
                 }, new Response.ErrorListener(){
